@@ -1,0 +1,15 @@
+.tickets {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.tickets_container {
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.booked {
+    color : grey;
+}
